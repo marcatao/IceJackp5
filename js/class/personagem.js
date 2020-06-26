@@ -21,6 +21,6 @@ class Personagem {
 
     andando() {
         this.frameAtual++;
-        if (this.frameAtual >= 6) this.frameAtual = 0;
+        if (this.frameAtual > 6) this.frameAtual = 0;
     }
 }
